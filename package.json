@@ -1,0 +1,22 @@
+{
+  "name": "hardhat-project",
+  "author": "0xOse",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "chai": "^4.4.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.12.0",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.11",
+    "web3": "^4.8.0"
+  }
+}
